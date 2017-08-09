@@ -1,21 +1,59 @@
 var data = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
-];
-
-var SKILL_NAME = "American Space Facts";
-var GET_FACT_MESSAGE = "Here's your fact: ";
-var HELP_MESSAGE = "You can say tell me a space fact, or, you can say exit... What can I help you with?";
+    "Walnuts are the oldest known tree food, they date all the way back to ten thousand BC.",
+    "If you love almonds as much as we do, thank bumblebees! Almonds can’t grow on their own. They need bees to help them pollinate.",
+    "The shell of the cashew is toxic and can’t be eaten.",
+    "Cashews are in the same plant family as poison ivy and poison sumac.",
+    "Cashwes have itchy oil that is primarily contained in their shell.",
+    "Pistachio is known as the smiling nut in Iran and the “happy nut” in China.",
+    "Macadamia nuts are never picked. They are harvested from the ground after they fall off the tree.", 
+    "Macadamia nuts have the hardest shell of any nut, taking three hundered PSI of pressure to crack it open.",
+    "Brazil nuts are a truly special nut. They require a specific bee to be pollinated and take as long as ten to thirty years to mature.",
+    "Americans spend almost eight hundered million dollars a year on peanut butter.",
+    "Texas adopted the pecan tree as its state tree in ninteen ninteen. In fact, Texas Governor James Hogg asked that a pecan tree be planted at his gravesite.",
+    "Ancient Greeks believed hazelnuts could treat coughing and baldness.",
+    "Almonds have a long storage life and can be refrigerated for up to two years.",
+    "Pistachios are actually seeds of a grape like fruit.",
+    "Macadamia nuts are poisonous for dogs.",
+    "Brazil nuts aren’t nuts. They are seeds contained in a capsule or pod, which splits apart.",
+    "Coconuts aren’t nuts. They are drupes.",
+    "Coconuts contain coconut water, not coconut milk.",
+    "Fresh coconut water is an excellent hangover cure.",
+    "Peanuts, also known as groundnuts, earthnuts, goobers, pinders, Manila nuts and monkey nuts, aren’t nuts. They are a type of pea which grows underground.",
+    "Walnuts are the richest in omega-three fatty acids, which fight inflammation.",
+    "Pistachio is actually a fruit!",
+    "Brazil nuts grow on the largest tree in the Amazon forest and can live from five hundered to one thousand years.",
+    "California produces eighty two percent of the globe's almonds.",
+    "Coconut water is a workable short-term substitute for human blood plasma.",
+    "In tropical countries like Sumatra, farmers train monkeys to harvest their coconuts.",
+    "Coconut trees happen to be one of the plants that can produce oil for biodisel fuel.",
+    "There are more than thirteen hundered kinds of coconut.",
+    "The Macadamia is derived from an indigenous Australian tree.",
+    "Brazil nuts grow near the tops of hundered fifty foot tall trees in hard casings.",
+    "Brazil nuts grow in the wild.",
+    "The name pecan is a Native American word that was used to describe nuts requiring a stone to crack.",
+    "The pecan capital of the world is Albany, Georgia, which boasts more than six hundered thousand pecan trees.",
+    "Pecan trees only produce nuts every two years.",
+    "About seventy eight pecans are used in the average pecan pie.",
+    "Pecan trees can live to be over two hu years old.",
+    "There are nine different species of chestnut native to temperate regions of the Northern Hemisphere",
+    "The lifespan of a chestnut tree is between two hundered to eight hundered years.",
+    "Nighty eight percent of the world Pistachios are produced in California.",
+    "A serving of Pistachios has as much protien as en egg.",
+    "It takes about five hundered fourty peanuts to make a twelve ounce jar of peanut butter.",
+    "The average peanut farm is a hundered acres.",
+    "Two peanut farmers have been elected president of the United States, Thomas Jefferson and Jimmy Carter.",
+    "There are six cities in the United Stated named Peanut.",
+    "The peanut is not a nut, but a legume related to beans and lentils.",
+    "Peanuts contribute more than four billion dollars to the united states economy each year.",
+    "March is the National Peanut Month and November is the National Peanut Butter Lovers Month.",
+    "Each year, the average American consumes over six pounds of peanuts and peanut butter products.",
+    "Astronaut Allen B Sheppard took a peanut with him on his trip to the moon.",
+    "Raw cashews are actually green.",
+    "November twenty third is National Cashew Day."
+    ];
+    
+var SKILL_NAME = "Totally Nuts";
+var GET_FACT_MESSAGE = "Here's your nutty fact: ";
+var HELP_MESSAGE = "You can say something like, tell me something nutty";
 var HELP_REPROMPT = "What can I help you with?";
 var STOP_MESSAGE = "Goodbye!";
